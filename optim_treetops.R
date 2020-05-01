@@ -1,4 +1,4 @@
-## Canopy analysis in R using Forest Tools
+# Canopy analysis in R using Forest Tools
 # Attach the 'ForestTools', 'optimParallel' and 'raster' libraries
 library(ForestTools)
 library(raster)
@@ -10,7 +10,7 @@ library(optimParallel)
 CHM <- raster("C://CHM.tif")
 
 
-#### Target= nunumber of trees found in the field
+# Target= nunumber of trees found in the field
 Target<-500
 
 Trees<-function (data, par) {
